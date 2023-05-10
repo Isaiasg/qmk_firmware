@@ -20,6 +20,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define MATRIX_ROW_PINS { A0, A1, A2, B11, B6 }
 #define MATRIX_COL_PINS { A3, A4, A5, A6, A7, B0, B1, B2, B10, B12, B13, B14, B15, A8, A9 }
+#define DYNAMIC_KEYMAP_LAYER_COUNT 5
+
+#define LEADER_NO_TIMEOUT
+#define LEADER_TIMEOUT 350
+#define LEADER_PER_KEY_TIMING
 
 #define TAPPING_TERM 150
 #define IGNORE_MOD_TAP_INTERRUPT
