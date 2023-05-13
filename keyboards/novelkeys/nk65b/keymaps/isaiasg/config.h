@@ -41,6 +41,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define TAPPING_TERM_PER_KEY
 
+//#define MOUSEKEY_INERTIA
+#define MK_KINETIC_SPEED
+
 /* COL2ROW, ROW2COL*/
 #define DIODE_DIRECTION COL2ROW
 
