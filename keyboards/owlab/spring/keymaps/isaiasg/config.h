@@ -20,3 +20,5 @@
 #define RETRO_SHIFT 500
 
 #define TAPPING_TERM_PER_KEY
+
+#define MK_KINETIC_SPEED
