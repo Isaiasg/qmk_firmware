@@ -17,13 +17,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-//#include "config_common.h"
-#define KC_BSPACE   KC_BSPC
-#define KC_SCOLON   KC_SCLN	
-#define KC_LBRACKET KC_LBRC
-#define KC_RBRACKET KC_RBRC
-#define KC_BSLASH   KC_BSLS
-
 /* key matrix size */
 #define MATRIX_ROWS 4
 #define MATRIX_COLS 10
@@ -37,3 +30,25 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DIODE_DIRECTION COL2ROW
 
 #define DYNAMIC_KEYMAP_LAYER_COUNT 10
+
+#define LEADER_NO_TIMEOUT
+#define LEADER_TIMEOUT 350
+#define LEADER_PER_KEY_TIMING
+
+#define TAPPING_TERM 150
+#define IGNORE_MOD_TAP_INTERRUPT
+#define QUICK_TAP_TERM 0
+
+// Enable rapid switch from tap to hold, disables double tap hold auto-repeat.
+#define TAPPING_FORCE_HOLD
+
+// Auto Shift
+//#define NO_AUTO_SHIFT_ALPHA
+#define AUTO_SHIFT_TIMEOUT TAPPING_TERM
+//#define AUTO_SHIFT_NO_SETUP
+#define RETRO_SHIFT 500
+
+#define TAPPING_TERM_PER_KEY
+
+ //#define MOUSEKEY_INERTIA
+#define MK_KINETIC_SPEED
