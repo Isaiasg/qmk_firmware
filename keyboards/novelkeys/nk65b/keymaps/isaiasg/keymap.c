@@ -119,9 +119,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 [2] = LAYOUT_65_ansi( /* Empty for dynamic keymaps */
     KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-    KC_TRNS, KC_TRNS, KC_TRNS, KC_F,    KC_P,    KC_G,    KC_J,    KC_L,    KC_U,    KC_Y,    KC_SCLN, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-    KC_TRNS, GUI_A,   ALT_R,   SFT_S,   CTRL_T,  KC_D,    KC_H,    CTL_N,   SFT_E,   ALT_I,   GUI_O,   KC_TRNS,          KC_TRNS, KC_TRNS,
-    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_K,    KC_M,    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,          KC_TRNS, KC_TRNS,
+    KC_TRNS, KC_TRNS, KC_TRNS, KC_F,    KC_P,    KC_B,    KC_J,    KC_L,    KC_U,    KC_Y,    KC_SCLN, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+    KC_TRNS, GUI_A,   ALT_R,   SFT_S,   CTRL_T,  KC_G,    KC_K,    CTL_N,   SFT_E,   ALT_I,   GUI_O,   KC_TRNS,          KC_TRNS, KC_TRNS,
+    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_D,    KC_V,    KC_M,    KC_H,    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,          KC_TRNS, KC_TRNS,
     KC_TRNS, KC_TRNS, KC_TRNS,                KC_TRNS,                               TG(2),   KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS),
 
 [3] = LAYOUT_65_ansi( /* Empty for dynamic keymaps */
